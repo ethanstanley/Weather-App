@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background= "@drawable/appbackground">
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize = "50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:id = "@+id/show"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize = "25dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:id = "@+id/show_sources"/>
+    <Button
+        android:id ="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/back_button"/>
+</LinearLayout>
+

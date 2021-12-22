@@ -1,0 +1,58 @@
+<LinearLayout
+
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background= "@drawable/appbackground">
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize = "60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text = "@string/showfinder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize = "25dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text = "@string/prompt2"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "25dp"
+        android:textColor="@android:color/holo_green_light"
+        android:id = "@+id/show_input"/>
+    <Button
+        android:id= "@+id/load_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize = "25dp"
+        android:text="@string/load_button2"/>
+    <Button
+        android:id= "@+id/show_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize = "25dp"
+        android:text="@string/show_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize = "25dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:id= "@+id/show_text"/>
+    <Button
+        android:id ="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/back_button"/>
+
+</LinearLayout>

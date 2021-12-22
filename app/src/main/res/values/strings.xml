@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EzFinder</string>
+    <string name="movie_button">Click to retrieve movie info</string>
+    <string name="load_button">Load movie</string>
+    <string name="load_button2">Load show</string>
+    <string name="show_button">Click to retrieve show info</string>
+    <string name="title">EzFinder</string>
+    <string name="prompt">Please enter a movie.</string>
+    <string name="prompt2">Please enter a show.</string>
+    <string name="back_button">Back</string>
+    <string name="show">Show</string>
+    <string name="showfinder">ShowFinder</string>
+    <string name="movfinder">MovieFinder</string>
+    <string name="movie">Movie</string>
+    <string name="initialquestion">Welcome to EzFinder! Do you want information for a show or movie?</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_title">TitleActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_display_show">DisplayShow</string>
+    <string name="title_activity_spec_show">SpecShow</string>
+</resources>
